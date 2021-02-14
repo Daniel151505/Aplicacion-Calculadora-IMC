@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "Calculadora-IMC"
+  "defaultProject": "Calculadora-IMC",
+  "cli": {
+    "analytics": false
+  }
 }
