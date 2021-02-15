@@ -8,3 +8,9 @@
 .sexo {
     font-size: 40px;
 }
+
+.estiloNumero {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: -30px;
+}
