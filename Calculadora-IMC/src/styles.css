@@ -24,3 +24,11 @@ body {
     background-color: #FF3366;
     border-color: #FF3366;
 }
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
