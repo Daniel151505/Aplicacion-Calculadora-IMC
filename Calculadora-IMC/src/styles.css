@@ -34,3 +34,7 @@ body {
     align-items: center;
     height: 100%;
 }
+
+.centrar {
+   padding-top: 60px;
+}
