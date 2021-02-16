@@ -19,6 +19,22 @@ export class ResultadoComponent implements OnInit {
    }
     
   ngOnInit(): void {
+
+    this.getResultado()
+
+  }
+
+  getResultado() {
+    if(this.bmi >= 25) {
+      this.resultado = "Exceso de peso"
+      this.interpretacion = "Tienes un peso corporal superior al normal. Intente hacer mas ejercicio"
+    } else if (this.bmi >= 18.5 ) {
+      this.resultado = 'Normal'
+      this.interpretacion = "Tienes un peso corporal normal. ¡Buen Trabajo!"
+    }else {
+      this.resultado = "Bajo de peso"
+      this.interpretacion = "Tienes un peso corporal mas bajo de lo normal. Puedes comer un poco mas"
+    }
   }
 
 }
