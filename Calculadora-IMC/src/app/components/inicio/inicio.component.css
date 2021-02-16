@@ -42,5 +42,5 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .sexoDesactivo {
-    background-color: #7D2F2F33
+    background-color: red
 }
