@@ -11,3 +11,10 @@
     text-transform: uppercase;
     font-weight: 700;
 }
+
+.estiloNumero {
+    font-size: 80px;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
