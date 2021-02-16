@@ -9,9 +9,13 @@ import { ActivatedRoute } from '@angular/router';
 export class ResultadoComponent implements OnInit {
 
   bmi:number
+  resultado: string
+  interpretacion: string
 
   constructor(private route: ActivatedRoute) {
-     this.bmi = +route.snapshot.paramMap.get('valor')!
+    this.resultado = ''
+    this.interpretacion= ''
+    this.bmi = +route.snapshot.paramMap.get('valor')!
    }
     
   ngOnInit(): void {
