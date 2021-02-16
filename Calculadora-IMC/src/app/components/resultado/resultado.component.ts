@@ -8,8 +8,12 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ResultadoComponent implements OnInit {
 
-  constructor(private route: ActivatedRoute) { }
+  bmi:number
 
+  constructor(private route: ActivatedRoute) {
+    this.bmi = +route.snapshot.paramMap.get('valor')!
+   }
+    
   ngOnInit(): void {
   }
 
